@@ -1,0 +1,284 @@
+@media(max-width:900px){
+  .cabecera{
+  background: #5b7989;
+  color:white;
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px 2px #02010a;
+  border-radius: 10px 10px 0px 0px;
+}
+.cabecera div{
+  text-align: center;
+}
+
+
+.menu a{
+  margin: 30px;
+color: white;
+font-size: 25px;
+}
+#santorini{
+background: #82c3a6;
+padding: 2%;
+}
+#santorini img{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+#imagenes{
+  background:  #d5c75f;
+  padding: 2%;
+  text-align: center;
+  margin: auto;
+}
+
+#imagenes > div{
+  padding: 5%;
+
+}
+#imagenes img{
+  width: 350px;
+  height: 350px;
+  margin: 5%;
+  display: block;
+  margin: auto;
+
+}
+#imagenes p{
+ font-family: 'Courgette', cursive;
+ text-align: center;
+ color: black;
+}
+
+#imagenes a{
+  color: black;
+}
+.imagen1:hover{
+  transform: rotate(10deg);
+
+}
+
+.imagen1{
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+.imagen2:hover{
+  transform: translate(20px,-5px);
+}
+.imagen2{
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+#footer{
+  border-radius: 0px 0px 10px 10px;
+  background: #C6d5c5;
+  display: flex;
+  flex-direction: column;
+}
+#footer>div{
+  margin: 30px;
+}
+#footer h1{
+  font-family: 'Courgette', cursive;
+  margin: 5px;
+}
+#footer p, a{
+  font-family: 'Courgette', cursive;
+  color: black;
+}
+#Paisajes{
+  background:  #d5c75f;
+}
+#superior{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+#superior > div{
+  padding: 5%;
+}
+#superior img{
+  width: 150px;
+  height: 150px;
+  margin: 5%;
+  display:block;
+  margin: auto;
+
+}
+
+#inferior{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+#inferior > div{
+  padding: 5%;
+}
+#inferior img{
+  width: 150px;
+  height: 150px;
+  margin: 5%;
+  display:block;
+  margin: auto;
+
+}
+
+.efecto1{
+filter: blur(10px);
+}
+
+.efecto2{
+filter: grayscale(100%);
+}
+
+.efecto3{
+filter: sepia(90%);
+}
+  }
+
+
+
+
+@media(min-width:900px){
+  .cabecera{
+  background: #5b7989;
+  color:white;
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px 2px #02010a;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.menu{
+  margin: 30px;
+  text-align: right;
+}
+.menu a{
+  margin: 30px;
+color: white;
+font-size: 25px;
+}
+.cabecera{
+  display: flex;
+  flex-direction: row;
+}
+.cabecera > div{
+width: 50%;
+}
+#santorini{
+background: #82c3a6;
+padding: 2%;
+}
+#santorini img{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+#imagenes{
+  background:  #d5c75f;
+  display: flex;
+  flex-direction: row;
+}
+#imagenes > div{
+  padding: 5%;
+  width: 50%;
+}
+#imagenes img{
+  width: 350px;
+  height: 350px;
+  margin: 5%;
+  display:block;
+  margin: auto;
+
+}
+#imagenes p{
+ font-family: 'Courgette', cursive;
+ text-align: center;
+ color: black;
+}
+
+#imagenes a{
+  color: black;
+}
+.imagen1:hover{
+  transform: rotate(10deg);
+
+}
+
+.imagen1{
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+.imagen2:hover{
+  transform: translate(20px,-5px);
+}
+.imagen2{
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+#footer{
+  border-radius: 0px 0px 10px 10px;
+  background: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+}
+#footer>div{
+  width: 25%;
+}
+#footer h1{
+  font-family: 'Courgette', cursive;
+  margin: 5px;
+}
+#footer p, a{
+  font-family: 'Courgette', cursive;
+  color: black;
+}
+
+#Paisajes{
+  background:  #d5c75f;
+}
+#superior{
+display: flex;
+flex-direction: row;
+}
+
+#superior > div{
+  padding: 5%;
+  width: 50%;
+}
+#superior img{
+  width: 150px;
+  height: 150px;
+  margin: 5%;
+  display:block;
+  margin: auto;
+
+}
+
+#inferior{
+display: flex;
+flex-direction: row;
+}
+
+#inferior > div{
+  padding: 5%;
+  width: 50%;
+}
+#inferior img{
+  width: 150px;
+  height: 150px;
+  margin: 5%;
+  display:block;
+  margin: auto;
+
+}
+
+.efecto1{
+filter: blur(10px);
+}
+
+.efecto2{
+filter: grayscale(100%);
+}
+
+.efecto3{
+filter: sepia(90%);
+}
+}
